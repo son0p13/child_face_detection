@@ -1,5 +1,6 @@
 ﻿# child_face_detection
-# child_face_detection
+-Chayj file tong_hop_dac_trung trước
+-chạy file cd_app.py
 Nhóm 1: Đặc trưng hình học Tỉ lệ trán/mặt: Trẻ em có vầng trán cao và chiếm tỉ trọng lớn (khoảng 1/3 đến 1/2 khuôn mặt) do hộp sọ phát triển nhanh hơn xương hàm.
 
 Vị trí "Đường mắt": Ở trẻ em, đôi mắt thường nằm ở vị trí trung tâm hoặc thấp hơn một chút so với chiều dọc khuôn mặt. Ở người lớn, vị trí này thường cao hơn.
