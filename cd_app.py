@@ -62,7 +62,7 @@ class FaceRankingApp:
         right_frame = tk.Frame(main_frame, relief=tk.RIDGE, borderwidth=2)
         right_frame.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True, padx=10, pady=10)
         
-        tk.Label(right_frame, text="TOP 10 KHUÔN MẶT GIỐNG NHẤT", font=("Arial", 14, "bold"), fg="#333333").pack(pady=15)
+        tk.Label(right_frame, text="TOP 5 KHUÔN MẶT GIỐNG NHẤT", font=("Arial", 14, "bold"), fg="#333333").pack(pady=15)
         
         # Bố cục Scrollable Canvas cho danh sách ảnh
         self.canvas = tk.Canvas(right_frame, borderwidth=0, highlightthickness=0)
@@ -155,7 +155,7 @@ class FaceRankingApp:
             widget.destroy()
         self.result_images.clear() 
 
-        for idx, (name, score) in enumerate(ranked_list[:10]):
+        for idx, (name, score) in enumerate(ranked_list[:5]):
             row_frame = tk.Frame(self.scrollable_frame, pady=8, padx=10, relief=tk.RIDGE, borderwidth=1)
             row_frame.pack(fill=tk.X, expand=True, padx=5, pady=4)
             
